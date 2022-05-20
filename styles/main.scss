@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+$main-font: 'Roboto', sans-serif;
+$main-color: #4F4F4F;
+$link-color: #5F8AC3;
+$main-font-size: 16px;
+
+body{
+    font-family: $main-font;
+    color: $main-color;
+    font-size: $main-font-size;
+}
+a {
+    color: $link-color;
+}
+
+.pageWrapper{
+    background-image: url(img/main.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+
+@import "./blocks/*.scss";

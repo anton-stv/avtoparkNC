@@ -1,0 +1,21 @@
+.requestBlockWrap{
+    display: block;
+    width: 75%;
+    margin: auto;
+    padding: 20px 30px 20px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #4f4f4f;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transform: skew(-20deg);
+    margin-top: 30px;
+    .requestBlock{
+        transform: skew(20deg);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

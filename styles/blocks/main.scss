@@ -1,0 +1,21 @@
+main {
+    h1{
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 45px;
+        color: #000000;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .subTitle{
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: $main-color;
+    }
+}

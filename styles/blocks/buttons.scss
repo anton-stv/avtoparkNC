@@ -1,0 +1,17 @@
+.buttonPrimary{
+    display: inline-block;
+    padding: 9px 30px 10px 30px;
+    border: 1px solid #7FAF42;
+    font-family: $main-font;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #7FAF42;
+    text-decoration: none;
+    border-radius: 5px;
+    transform: skew(-20deg);
+    span {
+        transform: skew(20deg);
+        display: inline-block;
+    }
+}
